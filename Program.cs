@@ -24,25 +24,29 @@ Realizar cálculos y estadísticas.*/
 /*Integrante 4 — Salida y pruebas
 Mostrar reportes.
 Probar el sistema y corregir errores.*/
-Console.WriteLine("Bienvenido a la tienda de tecnologia");
+Console.WriteLine("==============================================================");
+Console.WriteLine("               REPORTE DE VENTAS DE LA SEMANA                 ");
+Console.WriteLine("==============================================================");
 
-Console.WriteLine("Ingrese el nombre del producto");
-nombreProducto = Console.ReadLine();
+// Mostrar el detalle día por día
+for (int i = 0; i < 7; i++)
+{
+    Console.WriteLine($"{dias[i],-10} | Producto: {nombresProductos[i],-10} | Cant: {cantidades[i],-3} | Precio: ${precios[i],-5} | Total: ${ventasDiarias[i]}");
+}
 
-Console.WriteLine("Ingrese el precio del producto");
-precio = int.Parse(Console.ReadLine());
+Console.WriteLine("--------------------------------------------------------------");
+Console.WriteLine($"Total recaudado en la semana: ${totalVendidoSemana}");
 
-Console.WriteLine("Ingrese la cantidad del producto");
-cantidad = int.Parse(Console.ReadLine());
+// Evitamos mostrar el mensaje de mayor venta si no se vendió nada en toda la semana
+if (totalVendidoSemana > 0)
+{
+    Console.WriteLine($"El día de mayor venta fue el {diaMayorVenta} con un total de ${mayorVenta}");
+}
+else
+{
+    Console.WriteLine("No hubo ventas esta semana.");
+}
+Console.WriteLine("==============================================================");
 
-Console.WriteLine("Ingrese el dia de la semana (1-7)");
-menu = int.Parse(Console.ReadLine());
-
-ventas[menu - 1] += precio * cantidad;
-
-productos[0, 0] = precio;
-productos[0, 1] = cantidad;
-productos[0, 2] = precio * cantidad;
-
-Console.WriteLine("Venta registrada exitosamente");
+Console.ReadLine();
 
