@@ -5,12 +5,16 @@ El sistema será desarrollado en equipos de 4 estudiantes utilizando arreglos en
 Crear los arreglos.
 Definir variables y arreglos.*/
 
-int [] ventas = new int[7];
-int[,] productos = new int[3, 3];
-string nombreProducto = "";
-int precio = 0;
-int cantidad = 0;
-int menu = 0;
+string[] dias = {"Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo" };
+
+string[] nombresProductos = new string[7];
+int[] cantidades = new int[7];
+double[] precios = new double[7];
+double[] ventasDiarias = new double[7];
+
+double totalVendidoSemana = 0;
+double mayorVenta = 0;
+string diaMayorVenta = "";
 
 /*Integrante 2 — Entrada de datos
 Programar el ingreso de información.
