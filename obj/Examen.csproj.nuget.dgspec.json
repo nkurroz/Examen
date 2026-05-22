@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\UAM PRIMER SEMESTRE\\IntProgr\\C#\\Examen\\Examen.csproj": {}
+    "C:\\examen.cs\\Examen\\Examen.csproj": {}
   },
   "projects": {
-    "C:\\UAM PRIMER SEMESTRE\\IntProgr\\C#\\Examen\\Examen.csproj": {
+    "C:\\examen.cs\\Examen\\Examen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\UAM PRIMER SEMESTRE\\IntProgr\\C#\\Examen\\Examen.csproj",
+        "projectUniqueName": "C:\\examen.cs\\Examen\\Examen.csproj",
         "projectName": "Examen",
-        "projectPath": "C:\\UAM PRIMER SEMESTRE\\IntProgr\\C#\\Examen\\Examen.csproj",
-        "packagesPath": "C:\\Users\\norae\\.nuget\\packages\\",
-        "outputPath": "C:\\UAM PRIMER SEMESTRE\\IntProgr\\C#\\Examen\\obj\\",
+        "projectPath": "C:\\examen.cs\\Examen\\Examen.csproj",
+        "packagesPath": "C:\\Users\\nijer\\.nuget\\packages\\",
+        "outputPath": "C:\\examen.cs\\Examen\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\norae\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\nijer\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.204/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
